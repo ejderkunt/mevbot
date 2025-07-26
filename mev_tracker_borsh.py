@@ -33,8 +33,8 @@ if not HELIUS_API_API_KEY:
     logging.error("HELIUS_API_KEY environment variable not set.")
     exit("Exiting: HELIUS_API_KEY environment variable not set.") 
 
-RPC_URL = f"https://mainnet.helius-rpc.com/?api-key={HELIUS_API_API_KEY}"
-WS_URL = f"wss://mainnet.helius-rpc.com/?api-key={HELIUS_API_API_KEY}"
+RPC_URL = f"https://mainnet.helius-rpc.com/?api-key=cd59e7df-1e1e-4275-b64a-6f0f5ee78fce"
+WS_URL = f"wss://mainnet.helius-rpc.com/?api-key=cd59e7df-1e1e-4275-b64a-6f0f5ee78fce"
 
 METEORA_DAMM_V2_PROGRAM_ID = Pubkey.from_string("cpamdpZCGKUy5JxQXB4dcpGPiikHawvSWAd6mEn1sGG")
 
